@@ -43,7 +43,7 @@ class Song
   end
 
   def self.create_from_filename filename
-    split_filename(filename)
+    song_details = split_filename(filename)
   end
 
   def self.destroy_all
