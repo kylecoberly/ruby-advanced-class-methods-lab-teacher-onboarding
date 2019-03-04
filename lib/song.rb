@@ -45,8 +45,8 @@ class Song
   def self.new_from_filename filename
     song_details = split_filename(filename)
     song = Song.new
-    song.artist_name = song_details[:song]
-    song.name = song_details[:artist_name]
+    song.artist_name = song_details[:artist_name]
+    song.name = song_details[:song]
     song
   end
 
