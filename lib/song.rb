@@ -42,4 +42,10 @@ class Song
     self.all.sort {|song_a, song_b| song_a.name <=> song_b.name}
   end
 
+  private
+
+  def split_filename filename
+    filename
+  end
+
 end
