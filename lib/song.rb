@@ -55,7 +55,6 @@ class Song
       :artist => song_details[0],
       :song => song_details[1]
     }
-    puts path
   end
 
 end
