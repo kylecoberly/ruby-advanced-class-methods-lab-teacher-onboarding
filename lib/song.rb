@@ -50,6 +50,10 @@ class Song
 
   def self.split_filename filename
     path = filename.split(".")[0]
+    song_details = path.split(" - ")
+    {
+      :artist => path.split
+    }
     puts path
   end
 
