@@ -46,6 +46,10 @@ class Song
     split_filename(filename)
   end
 
+  def self.destroy_all
+    @@all = []
+  end
+
   private
 
   def self.split_filename filename
