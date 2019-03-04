@@ -65,7 +65,7 @@ class Song
     path = filename.split(".")[0]
     song_details = path.split(" - ")
     {
-      :artist => song_details[0],
+      :artist_name => song_details[0],
       :song => song_details[1]
     }
   end
