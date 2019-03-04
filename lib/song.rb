@@ -45,7 +45,7 @@ class Song
   private
 
   def split_filename filename
-    filename
+    path = filename.split(".")[0]
   end
 
 end
