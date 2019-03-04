@@ -42,6 +42,9 @@ class Song
     self.all.sort {|song_a, song_b| song_a.name <=> song_b.name}
   end
 
+  def self.new_from_filename filename
+  end
+
   def self.create_from_filename filename
     song_details = split_filename(filename)
   end
