@@ -43,6 +43,10 @@ class Song
   end
 
   def self.new_from_filename filename
+    song_details = split_filename(filename)
+    song = Song.new
+    song.artist = song_details[0]
+    song.name = song_details[1]
   end
 
   def self.create_from_filename filename
