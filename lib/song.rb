@@ -43,6 +43,7 @@ class Song
   end
 
   def self.create_from_filename filename
+    split_filename(filename)
   end
 
   private
